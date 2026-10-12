@@ -16,21 +16,29 @@ background: linear-gradient(180deg, rgba(240, 180, 41, 1) 0%, rgba(255, 240, 120
     padding: 1.5rem;
     text-align: center;
     font-size: larger;
+ 
     
 }
 .container {  
     display: flex;
     flex-wrap: wrap;
+    width: 50%
   }
 
 aside{
-    flex: 30%;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 1rem;
     position: sticky;
+    width: 15%;
+    position: sticky;
+    height: 50%;
+    border-width: 10px;
+    border-radius: 7px;
+    top: 15%;
+    left: 75%;
 }
 main{
-    flex: 70%;
-    background-color: white;
+    flex: 40%;
+    background-color: rgb(230, 232, 99);
     padding: 20px;
 }
