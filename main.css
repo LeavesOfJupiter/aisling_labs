@@ -19,10 +19,13 @@ background: linear-gradient(180deg, rgba(240, 180, 41, 1) 0%, rgba(255, 240, 120
  
     
 }
-.container {  
+.container { 
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    width: 50%
+    width: 70%;
+    padding-left: 15%;
+    left: 15%;
   }
 
 aside{
@@ -38,7 +41,6 @@ aside{
     left: 75%;
 }
 main{
-    flex: 40%;
     background-color: rgb(230, 232, 99);
     padding: 20px;
 }
