@@ -1,5 +1,9 @@
 /* this is where we put in all of the basic layout, decide on color, and archival stuff. 
 Will be using some neocities for this */
+body{
+    font-family: 'Roboto';
+}
+
 * {
     box-sizing: border-box;
   }
@@ -7,14 +11,13 @@ Will be using some neocities for this */
 header{
     text-align: center;
     background-color: blanchedalmond;
-    padding: 30px;
+    padding: 10px;
 }
 
 nav{
-    background: #f0b429;
-background: linear-gradient(180deg, rgba(240, 180, 41, 1) 0%, rgba(255, 240, 120, 1) 100%);
+    background-color:blanchedalmond;
     padding: 1.5rem;
-    text-align: center;
+    text-align: right;
     font-size: larger;
  
     
@@ -27,20 +30,24 @@ background: linear-gradient(180deg, rgba(240, 180, 41, 1) 0%, rgba(255, 240, 120
     padding-left: 15%;
     left: 15%;
   }
-
+  main{
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 60%;
+    height: fit-content;
+   left: 15%;
+   border-width: 10px;
+   border-radius: 7px;
+   position: relative;
+}
 aside{
     background-color: #f1f1f1;
-    padding: 1rem;
+    padding: 2%;
     position: sticky;
-    width: 15%;
-    position: sticky;
+    width: 10%;
     height: 50%;
     border-width: 10px;
     border-radius: 7px;
-    top: 15%;
-    left: 75%;
-}
-main{
-    background-color: rgb(230, 232, 99);
-    padding: 20px;
+    top: 2%;
+    left: 76%;
 }
