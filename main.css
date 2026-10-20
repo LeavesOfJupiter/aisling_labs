@@ -29,6 +29,18 @@ nav{
     width: 70%;
     padding-left: 15%;
     left: 15%;
+    
+  }
+  .subj-interview { 
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 5%;
+    left: 15%;
+    border-width: 10px;
+    border-radius: 7px;
+    position: relative;
   }
   main{
     background-color: #ffffff;
