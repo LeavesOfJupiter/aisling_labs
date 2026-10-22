@@ -41,6 +41,7 @@ nav{
     border-width: 10px;
     border-radius: 7px;
     position: relative;
+    border: 5px dashed #000000;
   }
   main{
     background-color: #ffffff;
