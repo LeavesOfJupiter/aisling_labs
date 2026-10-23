@@ -36,8 +36,8 @@ nav{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    padding-left: 5%;
-    left: 15%;
+    padding: 1%;
+    left: 25%;
     border-width: 10px;
     border-radius: 7px;
     position: relative;
