@@ -33,8 +33,6 @@ nav{
   }
   .subj-interview { 
     background-color: blanchedalmond;
-    display: flex;
-    flex-wrap: wrap;
     width: 70%;
     padding: 2%;
     left: 15%;
@@ -61,6 +59,6 @@ aside{
     height: 50%;
     border-width: 10px;
     border-radius: 7px;
-    top: 2%;
+    top: 4%;
     left: 76%;
 }
